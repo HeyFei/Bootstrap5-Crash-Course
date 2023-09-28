@@ -10,7 +10,37 @@
 
 <body>
 
-
+    <!-- tabs -->
+    <div class="container my-5">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <h2>Home</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iure rem odit repellat, minima
+                    facilis recusandae beatae nesciunt quibusdam dolorum necessitatibus eaque ratione id in? Ipsa
+                    commodi consectetur illo odit!</p>
+            </div>
+            <div class="tab-pane fade p-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <h2>Profile</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nemo sed, dolor animi vel assumenda
+                    nesciunt perspiciatis tempora porro accusantium fugiat. Optio ab nam esse.</p>
+            </div>
+            <div class="tab-pane fade p-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <h2>Contact</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis sequi autem perspiciatis magni
+                    dicta aliquid nisi repellat illo commodi minima?</p>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
