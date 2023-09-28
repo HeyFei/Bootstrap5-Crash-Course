@@ -79,6 +79,9 @@
                     <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
                         nulla?</p>
                     <a href="#pricing" class="btn btn-primary btn-lg">Buy Now</a>
+                    <!-- open sidebar / offcanvas -->
+                    <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="sidebar">Explore</a>
                 </div>
                 <!-- 
                     for smaller screen imgage shouldn't show on the page and for large screen it'll show
@@ -393,13 +396,26 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed nesciunt officia at tempora, enim
                         architecto vero asperiores pariatur vitae laborum accusamus ex iusto et ad. Non voluptas
                         consequatur perspiciatis ducimus.</p>
-                        <label for="modal-email" class="form-label">Your email address:</label>
-                        <input type="email" class="form-control" id="modal-email" placeholder="e.g.mario@example.com">
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="e.g.mario@example.com">
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-primary">Submit</button>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nesciunt quis enim. Rerum debitis
+                fugiat excepturi officia? Dolorum suscipit exercitationem error cumque voluptatibus, aperiam cupiditate?
+            </p>
         </div>
     </div>
 
